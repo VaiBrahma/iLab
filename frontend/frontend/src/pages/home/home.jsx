@@ -77,7 +77,7 @@ import axios from 'axios'
     e.preventDefault();
 
     try{
-      const response = await axios.post('https://ilab-mk18.onrender.com/api/save/saveData', formData);
+      const response = await axios.post('/api/save/saveData', formData);
       if(response.data === 7) {
         setIsFormNeeded(false);
       }
