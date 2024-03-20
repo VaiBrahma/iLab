@@ -27,7 +27,7 @@ const Welcome = () => {
   useEffect(() => {
     async function fetchData() {
       await axios
-        .get(`/api/healthData?booking_id=${booking_id}`)
+        .get(`https://ilab-mk18.onrender.com/api/healthData?booking_id=${booking_id}`)
         .then((response) => {
 
           console.log(response)
