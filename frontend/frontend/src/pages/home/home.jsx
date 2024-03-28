@@ -150,7 +150,7 @@ import axios from 'axios'
         <button className='absolute top-2 right-2 text-black w-4 h-4 x' onClick={()=>setFlag1(!flag1)}>X</button>
           {isFormNeeded && 
           <form onSubmit={handleSumbit1} className=' w-[80%]'>
-              <h1 className='font-bold text-xl my-4'>Upload Patinet Report</h1>
+              <h1 className='font-bold text-xl my-4'>Upload Patient Report</h1>
               <label className=' text-[#000000CC] text-[0.9rem] relative top-2 mt-4'> Upload .xlsx file </label>
               <div className='flex justify-center items-center'>
                 <input className='border-none relative top-2 w-[70%]' type="file" onChange={handleFileChange} accept='.xlsx'/>

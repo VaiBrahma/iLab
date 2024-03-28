@@ -17,7 +17,7 @@ const CoverPage = () => {
   }
 
   return (
-    <div className="mainContent h-[93vh]">
+    <div className="mainContent">
       <div className="Company">
         <div className="logoContainer h-auto">
           <img className="logoImg" src={logo}></img>
@@ -34,7 +34,7 @@ const CoverPage = () => {
         <img className="image" src={image}></img>
         <div className="rightOFIMG"></div>
       </div>
-      <div className="Profile absolute bottom-4">
+      <div className="Profile">
         <span>Prepared for</span>
         <div></div>
         <span className="name">

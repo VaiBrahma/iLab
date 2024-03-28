@@ -21,6 +21,7 @@
   justify-content: flex-start;
   width: 78vw;
   height: fit-content;
+  min-height: 95vh;
   border-top-right-radius: 14%;
   border-bottom-right-radius: 15%;
   border-bottom-left-radius: 15%;
@@ -75,7 +76,7 @@
 }
 .Profile {
   font-size: 28px;
-  margin: 0px 0px 0px 70px;
+  margin: 5rem 0px 0px 70px;
   padding-bottom: 50px;
 }
 .name {
@@ -85,5 +86,5 @@
 }
 .Company {
   padding-left: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
