@@ -26,6 +26,13 @@ To get started with Smart Lab Report, follow these steps:
 
 **Run**: Click on the Link to visit the site.
 
+# Visitors Guide
+
+**Vercel Link**: https://i--lab.vercel.app
+**Sample Report ID**: 6911934
+
+
+
 # Contribution Guidelines
 We welcome contributions from the community to help improve Smart Lab Report. To contribute:
 
